@@ -1,0 +1,47 @@
+# --- ACE-Step Inference Config: Anniversary Song for Angela (English Version) ---
+text_input: |
+  [Intro]
+  I wake up in the morning and I step outside,
+  and I check the indicators and I feel alive,
+  check the charts 
+  and I log right on —
+
+  And I say — hey!
+  what’s goin’ on?
+
+  I’m building new worlds,
+  I’m breaking it down —
+  yeah, that’s Theory Affinity now.
+  [Chorus]
+
+  [Verse 1]
+
+  [Final Chorus]
+  And I say hey — what’s goin’ on?
+  Yeah, I say hey — what’s goin’ on?
+  For every trade, every song, every line I’ve drawn,
+  I keep building the world where I belong.
+
+  [Outro]
+  I wake up in the morning and I step outside,
+  look at the world through a trader’s eyes.
+  TheoryAffinity.com — where we dream and we try,
+  to make some sense of the reason why.
+
+genre: "4 Non Blondes, american alternative rock"
+mood: "4 non blondes"
+bpm: 84
+duration: 140.0
+seed: 44
+cfg_type: apg
+guidance_scale: 15
+omega_scale: 9
+num_inference_steps: 160
+instrumentation: "power ballad, acoustic guitar, live drums, warm bass"
+vocal_style: "4 non blondes"
+production_style: "authentic early-90s rock mix"
+render_precision: "fp16-high"
+render_passes: 3
+coherence_strength: 0.96
+enhance_stereo_field: true
+mastering: "Studio EQ, +2dB low-mid warmth, -3dB vocal attenuation, tape-style saturation, soft compression, clean limiter at -0.3dBFS"

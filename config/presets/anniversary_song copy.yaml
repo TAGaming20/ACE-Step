@@ -1,0 +1,58 @@
+# --- ACE-Step Inference Config: Anniversary Song for Angela (English Version) ---
+text_input: |
+  [Intro]
+  The lights are low, the rhythm’s slow,
+  Five years of love, still letting it glow.
+  Aannjela, your smile starts the night,
+  My heart’s on fire, it feels so right.
+
+  Five years together, look how far we’ve come,
+  Dancing under city lights, still burning strong.
+
+  [Verse 1]
+  You’re my rhythm when the night feels slow,
+  Every heartbeat’s got your glow.
+  When you smile, the world feels right,
+  You’re the reason stars shine bright.
+
+  [Chorus]
+  Aannjela, you’re my melody,
+  My forever, endlessly.
+  Dancing close, just you and me,
+  In this love, we’re wild and free.
+
+  [Verse 2]
+  Every sunrise, every sigh,
+  You’re the fire that lights my sky.
+  When you move, the world slows down,
+  Queen of my heart, my golden crown.
+
+  [Bridge]
+  Let’s keep the beat until the morning,
+  Love so strong, it keeps on calling.
+  Five years down and forever to go,
+  Aannjela, I’ll never let you go.
+
+  [Outro]
+  Every rhythm, every tune,
+  Still in love beneath the moon.
+  You’re my song, my light, my soul,
+  Together we make the music whole.
+
+genre: "modern reggaeton pop, tropical house, pop reggae, afrobeat fusion"
+mood: "romantic, groovy, summer vibe, upbeat, heartfelt"
+bpm: 100
+duration: 120.0
+seed: 22
+cfg_type: apg
+guidance_scale: 16
+omega_scale: 8
+num_inference_steps: 150
+instrumentation: "clean female vocals, rhythmic guitar, tropical drums, soft bass, warm synths, island percussion, studio mix quality"
+vocal_style: "female pop vocal, smooth, expressive, romantic tone"
+production_style: "radio-ready reggaeton pop mix, balanced mix with stronger instrumental presence, lower vocal gain (-2dB), enhanced bass punch, stereo widened percussion, glue compression, balanced low end, crisp percussion, lush reverb"
+render_precision: "fp16-high"
+render_passes: 3
+coherence_strength: 0.95
+enhance_stereo_field: true
+mastering: "studio EQ, soft bus compression, +2dB low-mid warmth, −1.5dB vocal attenuation, clean limiter at −0.3dBFS"

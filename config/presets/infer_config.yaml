@@ -1,0 +1,22 @@
+# --- ACE-Step custom inference configuration ---
+# Text prompt for lyrics and theme
+text_input: |
+  [verse]
+  Dancing through electric fires,
+  heart is buzzing like live wires.
+  [chorus]
+  Feel the beat, the neon desire,
+  this is our night to inspire.
+
+# High-level tags that steer the music generation
+genre: "electronic, synthwave, retro"
+mood: "energetic, futuristic, driving"
+bpm: 110
+duration: 25.0        # seconds
+seed: 42
+
+# Diffusion + decoding parameters
+cfg_type: apg
+guidance_scale: 15
+omega_scale: 10
+num_inference_steps: 60

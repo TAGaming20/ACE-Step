@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "nickleback style, big drops, dub step, power ballad",
+    "lyrics": "[Intro]\n\n[Chorus]\n\n[Verse 1]\n\n[Chorus]\n\n[Outro]\n",
+    "audio_duration": 120.0,
+    "infer_step": 150,
+    "guidance_scale": 16,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 8,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0.0,
+    "min_guidance_scale": 0,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.29340100288391113,
+        "diffusion": 40.17894673347473,
+        "latent2audio": 2.1418910026550293
+    },
+    "actual_seeds": [
+        22
+    ],
+    "retake_seeds": [
+        2153256370
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "output\\cyberpunk.wav"
+}

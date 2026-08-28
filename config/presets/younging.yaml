@@ -1,0 +1,59 @@
+# --- ACE-Step Inference Config: Anniversary Song for Angela (English Version) ---
+text_input: |
+  [Intro]
+  The markets are moving, the stakes are high,
+  With real-time guidance, you’ll never miss a buy.
+  Theeeery Affinity, we’re here to show,
+  The right moves to make as your profits grow.
+
+  [Chorus]
+  Theory Affinity, you’re my edge to thrive,
+  With every insight, I come alive.
+  In the market’s rhythm, we rise and climb,
+  With Discord guidance, it’s always prime.
+
+  Theory Affinity, you’re my edge to thrive,
+  With every insight, I come alive.
+  In the market’s rhythm, we rise and climb,
+  With Discord guidance, it’s always prime.
+
+  [Verse 1]
+  Every signal, every trend,
+  With Theory Affinity, the wins never end.
+  In real-time, we’re always ahead,
+  Don’t trade alone, join the thread.
+
+  [Chorus]
+  Theory Affinity, you’re my edge to thrive,
+  With every insight, I come alive.
+  In the market’s rhythm, we rise and climb,
+  With Discord guidance, it’s always prime.
+
+  Theory Affinity, you’re my edge to thrive,
+  With every insight, I come alive.
+  In the market’s rhythm, we rise and climb,
+  With Discord guidance, it’s always prime.
+
+  [Outro]
+  In the market’s tune, you’ll find your beat,
+  With Theeeery Affinity, no one can compete.
+  Get the edge, stay ahead,
+  Join our Discord, and make that bread.
+
+genre: "nickleback style"
+mood: "big drops, dub step, power ballad"
+bpm: 85
+duration: 120.0
+seed: 22
+cfg_type: apg
+guidance_scale: 16
+omega_scale: 8
+num_inference_steps: 150
+instrumentation: "louder instrumentals, bright bass, radio-ready mix"
+vocal_style: "male deep nickleback vocal, smooth, and motivating"
+production_style: "radio-ready, balanced mix with instrumental dominance, low vocal gain, clear punchy bass, stereo-widened percussion, balanced low-end, engaging rhythm, full-spectrum EQ"
+render_precision: "fp16-high"
+render_passes: 3
+coherence_strength: 0.95
+enhance_stereo_field: true
+mastering: "Studio EQ, soft compression, +2dB low-mid warmth, −4.5dB vocal attenuation, clean limiter at −0.3dBFS"

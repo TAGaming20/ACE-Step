@@ -1,0 +1,10 @@
+# --- Medieval tavern song ---
+text_input: "cheerful medieval folk tune sung by a bard in a cozy tavern"
+genre: "folk, acoustic, medieval"
+mood: "happy, rustic, inviting"
+bpm: 95
+duration: 25.0
+cfg_type: apg
+guidance_scale: 15
+omega_scale: 10
+num_inference_steps: 60

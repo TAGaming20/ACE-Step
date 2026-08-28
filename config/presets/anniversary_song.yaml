@@ -1,0 +1,43 @@
+# --- ACE-Step Inference Config: Anniversary Song for Angela ---
+text_input: |
+  [Intro]
+  Five years, mi amor, look how far we've come,
+  dancing under the same sun, corazón.
+
+  [Verse 1]
+  From our first kiss to the morning light,
+  you turned my gray into paradise.
+  Every rhythm beats your name,
+  my forever flame.
+
+  [Chorus]
+  Angela, contigo para siempre,
+  dancing slow where the ocean sings.
+  Love like this, I can’t pretend,
+  you're my rhythm, my everything.
+
+  [Verse 2]
+  Every sunset, you’re my view,
+  no one makes me feel like you do.
+  Mi reina, mi luz, my muse,
+  in your arms I never lose.
+
+  [Bridge]
+  So tonight, let’s make it last,
+  forget the world, forget the past.
+  In your eyes I see mi cielo,
+  love that never lets go.
+
+  [Outro]
+  Five years down, forever to go,
+  contigo para siempre, amor, let it flow.
+
+genre: "modern reggaeton, pop reggae, latin pop"
+mood: "romantic, tropical, uplifting"
+bpm: 95
+duration: 35.0
+seed: 5
+cfg_type: apg
+guidance_scale: 14
+omega_scale: 8
+num_inference_steps: 60

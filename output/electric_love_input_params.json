@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "surf music",
+    "lyrics": "[verse]\nSunshine on the boulevard the beach is calling loud\nWaves are dancing golden sand under a cotton cloud\nElectric heartbeat pounding fast the tide is on our side\nCatch a wave and feel alive we’ll take it for a ride\n\n[verse]\nPalm trees swaying left to right they know where we belong\nFeel the rhythm of the night it keeps us moving strong\nSea spray kisses salty air we’re flying with the breeze\nChampagne states of mind we ride we do just as we please\n\n[chorus]\nWe’re riding waves of life together hand in hand\nWith every beat we chase the beat it’s our own wonderland\nFeel the music take you higher as the shorelines blur\nThis is our world our endless summer as we live and learn\n\n[bridge]\nMoonlight paints the ocean blue reflections in our eyes\nStars align to light our path we’re surfing through the skies\nEvery moment like a song we sing it loud and clear\nEvery day’s a new adventure with you always near\n\n[verse]\nNeon lights and city sounds they blend with ocean views\nWe’re unstoppable tonight no way that we can lose\nDreams are written in the sand they sparkle in the sun\nTogether we’re a masterpiece our story’s just begun\n\n[chorus]\nWe’re riding waves of life together hand in hand\nWith every beat we chase the beat it’s our own wonderland\nFeel the music take you higher as the shorelines blur\nThis is our world our endless summer as we live and learn",
+    "audio_duration": 236.55997916666666,
+    "infer_step": 60,
+    "guidance_scale": 15,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 10,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0,
+    "min_guidance_scale": 3,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.20255088806152344,
+        "diffusion": 29.028005838394165,
+        "latent2audio": 3.9044392108917236
+    },
+    "actual_seeds": [
+        508630535
+    ],
+    "retake_seeds": [
+        986393373
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "output\\electric_love.wav"
+}

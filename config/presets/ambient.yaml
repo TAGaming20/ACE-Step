@@ -1,0 +1,10 @@
+# --- Ambient futuristic background ---
+text_input: "loopable atmospheric pad music for sci-fi interface or space station ambiance"
+genre: "ambient, electronic"
+mood: "calm, spacious, ethereal"
+bpm: 80
+duration: 25.0
+cfg_type: apg
+guidance_scale: 12
+omega_scale: 8
+num_inference_steps: 50

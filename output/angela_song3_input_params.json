@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "modern reggaeton pop, tropical house, pop reggae, afrobeat fusion, romantic, groovy, summer vibe, upbeat, heartfelt",
+    "lyrics": "[Intro]\nThe lights are low, the rhythm’s slow,\nFive years of love, still letting it glow.\nAngela, your smile starts the night,\nMy heart’s on fire, it feels so right.\n\nFive years together, look how far we’ve come,\nDancing under city lights, still burning strong.\n\n[Verse 1]\nYou’re my rhythm when the night feels slow,\nEvery heartbeat’s got your glow.\nWhen you smile, the world feels right,\nYou’re the reason stars shine bright.\n\n[Chorus]\nAngela, you’re my melody,\nMy forever, endlessly.\nDancing close, just you and me,\nIn this love, we’re wild and free.\n\n[Verse 2]\nEvery sunrise, every sigh,\nYou’re the fire that lights my sky.\nWhen you move, the world slows down,\nQueen of my heart, my golden crown.\n\n[Bridge]\nLet’s keep the beat until the morning,\nLove so strong, it keeps on calling.\nFive years down and forever to go,\nAngela, I’ll never let you go.\n\n[Outro]\nEvery rhythm, every tune,\nStill in love beneath the moon.\nYou’re my song, my light, my soul,\nTogether we make the music whole.\n",
+    "audio_duration": 120.0,
+    "infer_step": 150,
+    "guidance_scale": 16,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 8,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0.0,
+    "min_guidance_scale": 0,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.23963570594787598,
+        "diffusion": 46.541282176971436,
+        "latent2audio": 2.420534372329712
+    },
+    "actual_seeds": [
+        22
+    ],
+    "retake_seeds": [
+        258442633
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "output\\angela_song3.wav"
+}

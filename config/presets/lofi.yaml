@@ -1,0 +1,10 @@
+# --- Lofi chillhop study beat ---
+text_input: "warm jazzy lofi beat with vinyl crackle and soft piano"
+genre: "lofi, hiphop, chill"
+mood: "relaxed, nostalgic, cozy"
+bpm: 85
+duration: 25.0
+cfg_type: apg
+guidance_scale: 13
+omega_scale: 9
+num_inference_steps: 55

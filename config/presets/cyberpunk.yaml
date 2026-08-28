@@ -1,0 +1,10 @@
+# --- Cyberpunk club track ---
+text_input: "dark futuristic electronic dance music with pulsing bass and metallic synths"
+genre: "synthwave, techno, industrial"
+mood: "energetic, gritty, futuristic"
+bpm: 120
+duration: 25.0
+cfg_type: apg
+guidance_scale: 17
+omega_scale: 10
+num_inference_steps: 60

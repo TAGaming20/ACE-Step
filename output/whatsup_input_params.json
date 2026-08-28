@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "4 Non Blondes, american alternative rock, 4 non blondes",
+    "lyrics": "[Intro]\nI wake up in the morning and I step outside,\nand I check the indicators and I feel alive,\ncheck the charts \nand I log right on —\n\nAnd I say — hey!\nwhat’s goin’ on?\n\nI’m building new worlds,\nI’m breaking it down —\nyeah, that’s Theory Affinity now.\n[Chorus]\n\n[Verse 1]\n\n[Final Chorus]\nAnd I say hey — what’s goin’ on?\nYeah, I say hey — what’s goin’ on?\nFor every trade, every song, every line I’ve drawn,\nI keep building the world where I belong.\n\n[Outro]\nI wake up in the morning and I step outside,\nlook at the world through a trader’s eyes.\nTheoryAffinity.com — where we dream and we try,\nto make some sense of the reason why.\n",
+    "audio_duration": 140.0,
+    "infer_step": 160,
+    "guidance_scale": 15,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 9,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0.0,
+    "min_guidance_scale": 0,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.43172502517700195,
+        "diffusion": 48.436206340789795,
+        "latent2audio": 2.633527994155884
+    },
+    "actual_seeds": [
+        44
+    ],
+    "retake_seeds": [
+        1708315809
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "output\\whatsup.wav"
+}

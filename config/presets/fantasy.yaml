@@ -1,0 +1,10 @@
+# --- Fantasy orchestral theme ---
+text_input: "orchestral fantasy theme for a magical kingdom and noble quests"
+genre: "orchestral, cinematic, fantasy"
+mood: "majestic, uplifting, heroic"
+bpm: 90
+duration: 30.0
+cfg_type: apg
+guidance_scale: 15
+omega_scale: 10
+num_inference_steps: 60

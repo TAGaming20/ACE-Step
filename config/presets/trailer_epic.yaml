@@ -1,0 +1,10 @@
+# --- Epic cinematic trailer music ---
+text_input: "massive cinematic trailer score with drums, brass, and choir"
+genre: "cinematic, orchestral"
+mood: "epic, intense, emotional"
+bpm: 100
+duration: 30.0
+cfg_type: apg
+guidance_scale: 18
+omega_scale: 12
+num_inference_steps: 65

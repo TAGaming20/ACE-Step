@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "Nightclubs, dance parties, workout playlists, radio broadcasts",
+    "lyrics": "Burning in motion, set me alight!\nEvery heartbeat turns into a fight!\nCaged in rhythm, chained in time!\nLove’s a battle— You're Mine!  You're Mine!",
+    "audio_duration": 221.83997916666667,
+    "infer_step": 60,
+    "guidance_scale": 15,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 10,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0,
+    "min_guidance_scale": 3,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.23938584327697754,
+        "diffusion": 26.26925563812256,
+        "latent2audio": 3.882202386856079
+    },
+    "actual_seeds": [
+        1318394052
+    ],
+    "retake_seeds": [
+        498969865
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "output\\neon_dream.wav"
+}
